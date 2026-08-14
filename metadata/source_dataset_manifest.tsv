@@ -1,0 +1,18 @@
+# source_dataset_manifest.tsv
+#
+# Public/external data sources used in the ASD microexon analysis.
+# Source data are NOT redistributed in this release; derived analysis data
+# are provided in the companion Zenodo data package (see
+# docs/DATA_AVAILABILITY.md).
+
+source_name	accession_or_doi	role_in_study	redistributed_in_release	reason_if_not_redistributed	access_notes
+CHyMErA (mouse perturbation atlas)	GSE291610; GSE291608	Definition of perturbation-defined microexon events (mouse); source of exon-perturbation and directional evidence	No	Restricted/public repository data; redistribution unnecessary; original accession provided	Available from NCBI GEO under the listed accessions
+Parikshak et al. autism transcriptome	GSE64018	Delta-PSI values for set-level enrichment backgrounds	No	Public repository data; redistribution unnecessary; original accession provided	Available from NCBI GEO (GSE64018)
+BrainSpan developmental transcriptome	BrainSpan (brainspan.org)	Developmental PSI extraction and dynamicity classification	No	Public resource; redistribution unnecessary; original resource referenced	Available from the BrainSpan Atlas of the Developing Human Brain
+VastDB	VastDB (vastdb.crg.eu)	Microexon annotation, junction PSI tables, mouse-human orthology, gene group tables	No	Public resource; redistribution unnecessary; original resource referenced	Available from VastDB
+GENCODE v33	GENCODE release 33 (GRCh38)	Reference gene annotation; local-structure checking; transcript definitions (D0-D3)	No	Public resource; redistribution unnecessary; original release referenced	Available from GENCODE (release 33, GRCh38)
+GSE30573 (fetal brain transcriptome)	GSE30573	Limited cross-cohort directional context only (small-n; not an independent validation dataset)	No	Public repository data; redistribution unnecessary; original accession provided	Available from NCBI GEO (GSE30573)
+PsychENCODE processed resource	PsychENCODE (psychencode.org) processed gene and transcript TPM matrices with sample metadata	Event-level diagnosis mixed models (M0-M4), transcript-definition sensitivity, cell-composition deconvolution of 532 cortical samples	No	Restricted processed resource; redistribution unnecessary; original resource referenced	Apply for access through the PsychENCODE data portal
+Adult human brain cell-type reference (local brainSCOPE)	brainSCOPE (brainscope.gersteinlab.org)	Reference profiles for cell-composition deconvolution (24 subtypes aggregated to 7 broad classes)	No	Public resource; redistribution unnecessary; original resource referenced	Available from the brainSCOPE web resource
+UniProt	UniProt (uniprot.org)	Protein feature annotation for Tier A microexon insertion sites	No	Public database; redistribution unnecessary; original database referenced	Available from UniProt
+AlphaFold	AlphaFold protein structure database (alphafold.ebi.ac.uk)	pLDDT context at Tier A microexon insertion sites	No	Public database; redistribution unnecessary; original database referenced	Available from the AlphaFold DB

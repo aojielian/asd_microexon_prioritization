@@ -1,0 +1,22 @@
+# Path configuration template for the ASD microexon analysis.
+
+# Copy this file to your own location (do not commit machine-specific paths)
+# and set the environment variables below before running any script.
+# Scripts read these variables directly; this file documents their meaning
+# and expected layout. No script requires the author's private directory
+# structure.
+
+PROJECT_ROOT: /absolute/path/to/your/analysis/workspace
+DATA_ROOT: /absolute/path/to/raw/data
+OUTPUT_ROOT: /absolute/path/to/outputs            # optional; defaults to PROJECT_ROOT
+REFERENCE_ROOT: /absolute/path/to/reference/resources
+SCRATCH_ROOT: /absolute/path/to/scratch           # large intermediates
+LIFTOVER_PATH: /absolute/path/to/liftOver         # UCSC liftOver executable
+
+# Expected layout under PROJECT_ROOT (numbered analysis directories):
+#   01_event_definition          -- CHyMErA event filtering + master event table
+#   11_set_level_enrichment      -- backgrounds, permutations, enrichment
+#   13_developmental_timing      -- BrainSpan developmental analyses
+#   34_robustness_and_composition-- LODO, cell composition, M4C
+#   41_submission_figures_and_tables -- final figures and supplementary tables
+# (See docs/ANALYSIS_WORKFLOW.md and docs/FILE_CROSSWALK.md for details.)

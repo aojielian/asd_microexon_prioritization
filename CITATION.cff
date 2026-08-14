@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying analysis data, please cite the manuscript and this repository as described here."
+title: "ASD microexon analysis code: perturbation-guided prioritization of autism-associated microexon splicing events"
+authors:
+  - given-names: "Aojie"
+    family-names: "Lian"
+  - given-names: "Yi"
+    family-names: "Xia"
+  - given-names: "Qiong"
+    family-names: "Wang"
+  - given-names: "Mei"
+    family-names: "He"
+date-released: "2026-08-13"
+version: "1.0.0"
+license: MIT
+keywords:
+  - autism
+  - microexon
+  - alternative splicing
+  - CHyMErA
+  - PsychENCODE
+  - brain
+  - RNA-seq
+repository-code: "https://github.com/aojielian/asd_microexon_prioritization"
+# Zenodo data package DOI: to be updated at release.
+# doi: "10.5281/zenodo.XXXXXXXX"
+abstract: >
+  Analysis code for perturbation-guided prioritization of autism-associated
+  microexon splicing events: CHyMErA perturbation-defined event definition,
+  mouse-to-human cortical mapping, set-level autism enrichment, developmental
+  and directional context, PsychENCODE mixed-model analysis, robustness,
+  cell-composition and transcript-definition sensitivity, and protein-context
+  prioritization. Companion derived analysis data are released in a Zenodo
+  data package.

@@ -1,0 +1,22 @@
+# Software versions used in the ASD microexon analysis.
+#
+# The exact original analysis environment was captured where available.
+# Where the exact original version could not be recovered the value is
+# recorded as "not recorded" (no guesses are made).
+
+software	tool_or_library	version	used_in	notes
+R	R	4.5.1	All R scripts (mixed models, LODO, composition)	Captured from the analysis environment at packaging time
+lme4	lme4	1.1.38	mixed_model_analysis.R, model_reproduction.R, region_interaction_omnibus.R, tierA_moderator_sensitivity.R, lodo.R, m4c_lodo.R	Mixed-effects model fitting (Kenward-Roger inference via pbkrtest)
+pbkrtest	pbkrtest	0.5.5	mixed_model_analysis.R and other model scripts	Kenward-Roger degrees-of-freedom approximation
+MASS	MASS	7.3.65	lodo.R and related	Supporting statistics
+Python	Python	3.13.2	All Python scripts	Captured from the analysis virtual environment
+matplotlib	matplotlib	3.11.1	figure scripts in 12_submission_figures_tables	Figures
+numpy	numpy	2.5.1	enrichment, deconvolution, figure scripts	Numerical computation
+pandas	pandas	3.0.5	table building and reconciliation	Tabular data
+scipy	scipy	1.18.0	backgrounds_and_enrichment.py, deconvolution_nnls.py	Statistics; NNLS deconvolution (scipy.optimize.nnls)
+pyliftover	pyliftover	0.4.1	coordinate_matching.py	GRCh37 to GRCh38 coordinate conversion
+openpyxl	openpyxl	3.1.5	prepare_supplementary_tables.py, finalize_table_s1.py	Supplementary workbook generation
+Pillow	Pillow	12.3.0	figure QA and combined-PDF assembly	Image handling
+reportlab	reportlab	5.0.0	supplementary_page_compose.py	Supplementary figure PDF composition
+liftOver	liftOver (UCSC)	not recorded	coordinate_matching.py	External executable; exact version not recorded
+bedtools	bedtools	not recorded	upstream event definition	External executable; exact version not recorded

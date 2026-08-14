@@ -1,0 +1,20 @@
+HsaEX_ID	MmuEX_ID	gene	GRCh38_chromosome	GRCh38_start_1based	GRCh38_end_1based	event_length_nt	main_evidence_tier	CHyMErA_perturbation_direction	CHyMErA_analysis_available	Parikshak_direction	developmental_dynamicity	developmental_trajectory	GSE30573_mapped	PsychENCODE_direction_concordant	PsychENCODE_primary_significance
+HsaEX0004157	MmuEX0004931	ANK3	chr10	60082149	60082176	28	C	Microexon inclusion loss	No	Up in ASD	Dynamic	Prenatal high / postnatal low (PHPL)	Yes	Yes	No
+HsaEX0012296	MmuEX0009019	CAMTA1	chr1	7749770	7749791	22	D	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	No	No
+HsaEX0015476	MmuEX0011506	CLASP1	chr2	121427403	121427430	28	A	Microexon inclusion loss	Yes	Down in ASD	Non-dynamic	Non-dynamic	No	Yes	Yes
+HsaEX0015474	MmuEX0011507	CLASP1	chr2	121409023	121409047	25	B	Microexon inclusion loss	Yes	Up in ASD	Non-dynamic	Non-dynamic	No	Yes	Sensitivity (BH<0.10)
+HsaEX0016976	MmuEX0012543	CPEB4	chr5	173943025	173943049	25	C	Microexon inclusion loss	Yes	Down in ASD	Non-dynamic	Non-dynamic	No	Yes	Nominal (P<0.05)
+HsaEX0017872	MmuEX0013079	CTNND1	chr11	57806460	57806478	19	C	Microexon inclusion loss	Yes	Down in ASD	Non-dynamic	Non-dynamic	No	Yes	No
+HsaEX0025270	MmuEX0018852	FBXO25	chr8	467719	467746	28	C	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	Yes	Yes	No
+HsaEX0029786	MmuEX0022805	HERC4	chr10	67959112	67959136	25	A	Microexon inclusion loss	No	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	Yes	Yes	Yes
+HsaEX0033219	MmuEX0025260	KDM1A	chr1	23066059	23066071	13	D	Microexon inclusion loss	No	Down in ASD	Non-dynamic	Non-dynamic	No	No	No
+HsaEX0038690	MmuEX0028559	MEF2A	chr15	99703361	99703385	25	C	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	Yes	No
+HsaEX0038710	MmuEX0028570	MEF2D	chr1	156476493	156476514	22	B	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	Yes	Sensitivity (BH<0.10)
+HsaEX0041193	MmuEX0030525	MYO5A	chr15	52348817	52348826	10	D	Microexon inclusion loss	Yes	Down in ASD	Non-dynamic	Non-dynamic	No	No	No
+HsaEX0050846	MmuEX0037733	PTK2	chr8	140669726	140669735	10	D	Microexon inclusion loss	Yes	Up in ASD	Non-dynamic	Non-dynamic	No	No	No
+HsaEX0050856	MmuEX0037737	PTK2	chr8	140762367	140762388	22	B	Microexon inclusion loss	No	Down in ASD	Non-dynamic	Non-dynamic	No	Yes	Sensitivity (BH<0.10)
+HsaEX0050855	MmuEX0037746	PTK2	chr8	140769574	140769592	19	A	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	Yes	Yes
+HsaEX0051138	MmuEX0037910	PTPRF	chr1	43602070	43602097	28	A	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	Yes	Yes
+HsaEX0051130	MmuEX0037912	PTPRF	chr1	43575909	43575927	19	C	Microexon inclusion loss	No	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	Yes	No
+HsaEX0060805	MmuEX0044238	SNX14	chr6	85538837	85538864	28	C	Microexon inclusion loss	Yes	Down in ASD	Non-dynamic	Non-dynamic	No	Yes	No
+HsaEX0066962	MmuEX0048796	TRAPPC9	chr8	140426614	140426641	28	C	Microexon inclusion loss	Yes	Down in ASD	Dynamic	Prenatal low / postnatal high (PLPH)	No	Yes	No
