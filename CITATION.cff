@@ -4,13 +4,14 @@ title: "ASD microexon analysis code: perturbation-guided prioritization of autis
 authors:
   - given-names: "Aojie"
     family-names: "Lian"
+    orcid: "https://orcid.org/0000-0002-5334-5323"
   - given-names: "Yi"
     family-names: "Xia"
-  - given-names: "Qiong"
-    family-names: "Wang"
   - given-names: "Mei"
     family-names: "He"
-date-released: "2026-08-13"
+  - given-names: "Hong"
+    family-names: "Zhang"
+date-released: "2026-08-14"
 version: "1.0.0"
 license: MIT
 keywords:
@@ -23,7 +24,6 @@ keywords:
   - RNA-seq
 repository-code: "https://github.com/aojielian/asd_microexon_prioritization"
 # Companion Zenodo data package DOI: 10.5281/zenodo.21928557
-# doi: "10.5281/zenodo.XXXXXXXX"
 abstract: >
   Analysis code for perturbation-guided prioritization of autism-associated
   microexon splicing events: CHyMErA perturbation-defined event definition,
