@@ -116,7 +116,7 @@ Derived analysis data underlying every figure and table are released as a
 companion Zenodo data package:
 
 - **Package**: `asd_microexon_prioritization_analysis_data`
-- **DOI**: to be updated at release (placeholder)
+- **DOI**: `10.5281/zenodo.21928557`
 
 See `docs/DATA_AVAILABILITY.md` for the package contents and access notes
 for the original source data.

@@ -6,7 +6,7 @@ All derived analysis data needed to verify and reuse the paper are released
 as a companion Zenodo data package:
 
 - **Package**: `asd_microexon_prioritization_analysis_data`
-- **DOI**: to be updated at release (placeholder)
+- **DOI**: `10.5281/zenodo.21928557`
 
 The Zenodo package contains the derived data underlying every figure and
 table of the paper (event master data, enrichment and sensitivity tables,

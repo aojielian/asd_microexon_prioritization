@@ -22,7 +22,7 @@ keywords:
   - brain
   - RNA-seq
 repository-code: "https://github.com/aojielian/asd_microexon_prioritization"
-# Zenodo data package DOI: to be updated at release.
+# Companion Zenodo data package DOI: 10.5281/zenodo.21928557
 # doi: "10.5281/zenodo.XXXXXXXX"
 abstract: >
   Analysis code for perturbation-guided prioritization of autism-associated
